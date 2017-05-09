@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276235EB1EC250B4003610CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 276235EA1EC250B4003610CF /* main.m */; };
+		276235EE1EC250B4003610CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 276235ED1EC250B4003610CF /* AppDelegate.m */; };
+		276235F11EC250B4003610CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 276235F01EC250B4003610CF /* ViewController.m */; };
+		276235F41EC250B4003610CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276235F21EC250B4003610CF /* Main.storyboard */; };
+		276235F71EC250B4003610CF /* BotonMan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 276235F51EC250B4003610CF /* BotonMan.xcdatamodeld */; };
+		276235F91EC250B4003610CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276235F81EC250B4003610CF /* Assets.xcassets */; };
+		276235FC1EC250B4003610CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276235FA1EC250B4003610CF /* LaunchScreen.storyboard */; };
+		276236071EC250B4003610CF /* BotonManTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 276236061EC250B4003610CF /* BotonManTests.m */; };
+		276236121EC250B4003610CF /* BotonManUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 276236111EC250B4003610CF /* BotonManUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		276236031EC250B4003610CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 276235DE1EC250B4003610CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276235E51EC250B4003610CF;
+			remoteInfo = BotonMan;
+		};
+		2762360E1EC250B4003610CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 276235DE1EC250B4003610CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276235E51EC250B4003610CF;
+			remoteInfo = BotonMan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		276235E61EC250B4003610CF /* BotonMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotonMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		276235EA1EC250B4003610CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		276235EC1EC250B4003610CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		276235ED1EC250B4003610CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		276235EF1EC250B4003610CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		276235F01EC250B4003610CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		276235F31EC250B4003610CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		276235F61EC250B4003610CF /* BotonMan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BotonMan.xcdatamodel; sourceTree = "<group>"; };
+		276235F81EC250B4003610CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		276235FB1EC250B4003610CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		276235FD1EC250B4003610CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276236021EC250B4003610CF /* BotonManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotonManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276236061EC250B4003610CF /* BotonManTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BotonManTests.m; sourceTree = "<group>"; };
+		276236081EC250B4003610CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2762360D1EC250B4003610CF /* BotonManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotonManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276236111EC250B4003610CF /* BotonManUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BotonManUITests.m; sourceTree = "<group>"; };
+		276236131EC250B4003610CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		276235E31EC250B4003610CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276235FF1EC250B4003610CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2762360A1EC250B4003610CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		276235DD1EC250B4003610CF = {
+			isa = PBXGroup;
+			children = (
+				276235E81EC250B4003610CF /* BotonMan */,
+				276236051EC250B4003610CF /* BotonManTests */,
+				276236101EC250B4003610CF /* BotonManUITests */,
+				276235E71EC250B4003610CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		276235E71EC250B4003610CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276235E61EC250B4003610CF /* BotonMan.app */,
+				276236021EC250B4003610CF /* BotonManTests.xctest */,
+				2762360D1EC250B4003610CF /* BotonManUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276235E81EC250B4003610CF /* BotonMan */ = {
+			isa = PBXGroup;
+			children = (
+				276235EC1EC250B4003610CF /* AppDelegate.h */,
+				276235ED1EC250B4003610CF /* AppDelegate.m */,
+				276235EF1EC250B4003610CF /* ViewController.h */,
+				276235F01EC250B4003610CF /* ViewController.m */,
+				276235F21EC250B4003610CF /* Main.storyboard */,
+				276235F81EC250B4003610CF /* Assets.xcassets */,
+				276235FA1EC250B4003610CF /* LaunchScreen.storyboard */,
+				276235FD1EC250B4003610CF /* Info.plist */,
+				276235F51EC250B4003610CF /* BotonMan.xcdatamodeld */,
+				276235E91EC250B4003610CF /* Supporting Files */,
+			);
+			path = BotonMan;
+			sourceTree = "<group>";
+		};
+		276235E91EC250B4003610CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				276235EA1EC250B4003610CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		276236051EC250B4003610CF /* BotonManTests */ = {
+			isa = PBXGroup;
+			children = (
+				276236061EC250B4003610CF /* BotonManTests.m */,
+				276236081EC250B4003610CF /* Info.plist */,
+			);
+			path = BotonManTests;
+			sourceTree = "<group>";
+		};
+		276236101EC250B4003610CF /* BotonManUITests */ = {
+			isa = PBXGroup;
+			children = (
+				276236111EC250B4003610CF /* BotonManUITests.m */,
+				276236131EC250B4003610CF /* Info.plist */,
+			);
+			path = BotonManUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		276235E51EC250B4003610CF /* BotonMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276236161EC250B4003610CF /* Build configuration list for PBXNativeTarget "BotonMan" */;
+			buildPhases = (
+				276235E21EC250B4003610CF /* Sources */,
+				276235E31EC250B4003610CF /* Frameworks */,
+				276235E41EC250B4003610CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BotonMan;
+			productName = BotonMan;
+			productReference = 276235E61EC250B4003610CF /* BotonMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		276236011EC250B4003610CF /* BotonManTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276236191EC250B4003610CF /* Build configuration list for PBXNativeTarget "BotonManTests" */;
+			buildPhases = (
+				276235FE1EC250B4003610CF /* Sources */,
+				276235FF1EC250B4003610CF /* Frameworks */,
+				276236001EC250B4003610CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				276236041EC250B4003610CF /* PBXTargetDependency */,
+			);
+			name = BotonManTests;
+			productName = BotonManTests;
+			productReference = 276236021EC250B4003610CF /* BotonManTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2762360C1EC250B4003610CF /* BotonManUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2762361C1EC250B4003610CF /* Build configuration list for PBXNativeTarget "BotonManUITests" */;
+			buildPhases = (
+				276236091EC250B4003610CF /* Sources */,
+				2762360A1EC250B4003610CF /* Frameworks */,
+				2762360B1EC250B4003610CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2762360F1EC250B4003610CF /* PBXTargetDependency */,
+			);
+			name = BotonManUITests;
+			productName = BotonManUITests;
+			productReference = 2762360D1EC250B4003610CF /* BotonManUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		276235DE1EC250B4003610CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Emiliano Da Luz";
+				TargetAttributes = {
+					276235E51EC250B4003610CF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					276236011EC250B4003610CF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 276235E51EC250B4003610CF;
+					};
+					2762360C1EC250B4003610CF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 276235E51EC250B4003610CF;
+					};
+				};
+			};
+			buildConfigurationList = 276235E11EC250B4003610CF /* Build configuration list for PBXProject "BotonMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 276235DD1EC250B4003610CF;
+			productRefGroup = 276235E71EC250B4003610CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276235E51EC250B4003610CF /* BotonMan */,
+				276236011EC250B4003610CF /* BotonManTests */,
+				2762360C1EC250B4003610CF /* BotonManUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		276235E41EC250B4003610CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276235FC1EC250B4003610CF /* LaunchScreen.storyboard in Resources */,
+				276235F91EC250B4003610CF /* Assets.xcassets in Resources */,
+				276235F41EC250B4003610CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276236001EC250B4003610CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2762360B1EC250B4003610CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		276235E21EC250B4003610CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276235F11EC250B4003610CF /* ViewController.m in Sources */,
+				276235EE1EC250B4003610CF /* AppDelegate.m in Sources */,
+				276235EB1EC250B4003610CF /* main.m in Sources */,
+				276235F71EC250B4003610CF /* BotonMan.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276235FE1EC250B4003610CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276236071EC250B4003610CF /* BotonManTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276236091EC250B4003610CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276236121EC250B4003610CF /* BotonManUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		276236041EC250B4003610CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276235E51EC250B4003610CF /* BotonMan */;
+			targetProxy = 276236031EC250B4003610CF /* PBXContainerItemProxy */;
+		};
+		2762360F1EC250B4003610CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276235E51EC250B4003610CF /* BotonMan */;
+			targetProxy = 2762360E1EC250B4003610CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		276235F21EC250B4003610CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276235F31EC250B4003610CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		276235FA1EC250B4003610CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276235FB1EC250B4003610CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		276236141EC250B4003610CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		276236151EC250B4003610CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		276236171EC250B4003610CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BotonMan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mek.botonman.BotonMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		276236181EC250B4003610CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BotonMan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mek.botonman.BotonMan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2762361A1EC250B4003610CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BotonManTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mek.botonman.BotonManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BotonMan.app/BotonMan";
+			};
+			name = Debug;
+		};
+		2762361B1EC250B4003610CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BotonManTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mek.botonman.BotonManTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BotonMan.app/BotonMan";
+			};
+			name = Release;
+		};
+		2762361D1EC250B4003610CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BotonManUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mek.botonman.BotonManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BotonMan;
+			};
+			name = Debug;
+		};
+		2762361E1EC250B4003610CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BotonManUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mek.botonman.BotonManUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BotonMan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276235E11EC250B4003610CF /* Build configuration list for PBXProject "BotonMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276236141EC250B4003610CF /* Debug */,
+				276236151EC250B4003610CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276236161EC250B4003610CF /* Build configuration list for PBXNativeTarget "BotonMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276236171EC250B4003610CF /* Debug */,
+				276236181EC250B4003610CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		276236191EC250B4003610CF /* Build configuration list for PBXNativeTarget "BotonManTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2762361A1EC250B4003610CF /* Debug */,
+				2762361B1EC250B4003610CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2762361C1EC250B4003610CF /* Build configuration list for PBXNativeTarget "BotonManUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2762361D1EC250B4003610CF /* Debug */,
+				2762361E1EC250B4003610CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		276235F51EC250B4003610CF /* BotonMan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				276235F61EC250B4003610CF /* BotonMan.xcdatamodel */,
+			);
+			currentVersion = 276235F61EC250B4003610CF /* BotonMan.xcdatamodel */;
+			path = BotonMan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 276235DE1EC250B4003610CF /* Project object */;
+}
